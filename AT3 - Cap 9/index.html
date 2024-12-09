@@ -6,25 +6,55 @@
     <title>Login - SêniorInvest</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
 </head>
 <body>
-    <div class="container vh-100 d-flex justify-content-center align-items-center">
-        <form class="border p-4 rounded shadow-lg" style="width: 100%; max-width: 400px;">
-            <h1 class="text-center mb-4">Login</h1>
+    <div class="container vh-100 d-flex justify-content-center align-items-center bg-primary-subtle">
+        <form class="p-4 rounded shadow-lg bg-light text-center" style="width: 100%; max-width: 400px;">
+            <!-- Logo -->
+            <div class="mb-4">
+                <img src="Logo.png" alt="Logo SêniorInvest" class="img-fluid mb-3" style="max-width: 150px;">
+                <h2 class="text-success fw-bold">Sênior<span class="text-dark">Invest</span></h2>
+            </div>
+            
+            <!-- Campo Usuário -->
+            <div class="mb-3 input-group">
+                <span class="input-group-text bg-white">
+                    <i class="fas fa-user"></i>
+                </span>
+                <input type="email" class="form-control" placeholder="nome@exemplo.com">
+            </div>
+            
+            <!-- Campo Senha -->
+            <div class="mb-3 input-group">
+                <span class="input-group-text bg-white">
+                    <i class="fas fa-lock"></i>
+                </span>
+                <input type="password" class="form-control" placeholder="********">
+            </div>
+
+            <!-- Link Esqueceu a senha -->
+            <div class="text-end mb-4">
+                <a href="#" class="text-decoration-none text-primary">Esqueceu a senha?</a>
+            </div>
+
+            <!-- Botões de Login com Redes Sociais -->
             <div class="mb-3">
-                <label for="email" class="form-label">Usuário</label>
-                <input type="email" class="form-control" id="email" placeholder="nome@exemplo.com">
+                <hr>
+                <p class="text-muted">ou</p>
+                <button class="btn btn-light w-100 border mb-2">
+                    <i class="fab fa-google text-danger me-2"></i> Login com Google
+                </button>
+                <button class="btn btn-light w-100 border">
+                    <i class="fab fa-facebook text-primary me-2"></i> Login com Facebook
+                </button>
             </div>
-            <div class="mb-3">
-                <label for="password" class="form-label">Senha</label>
-                <input type="password" class="form-control" id="password" placeholder="********">
-            </div>
-            <button type="submit" class="btn btn-primary w-100">Entrar</button>
-            <div class="text-center mt-3">
-                <a href="#">Esqueceu a senha?</a>
-            </div>
+
+            <!-- Botão Login -->
+            <button type="submit" class="btn btn-success w-100 fw-bold">Login</button>
         </form>
     </div>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
