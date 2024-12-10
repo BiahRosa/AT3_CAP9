@@ -1,18 +1,18 @@
-/* Background personalizado */
-body {
-    background-color: #779495;
+.container.vh-100.d-flex.justify-content-center.align-items-center {
+    background-color: #65a5aa; 
 }
+
 
 /* Formulário */
 form {
-    background-color: #779495;
+    background-color: #fff;
     border-radius: 15px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
 /* Logo e título */
 h2 {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Nova Mono', monospace;
     letter-spacing: 0.5px;
 }
 
@@ -28,7 +28,7 @@ input {
 
 /* Botão principal */
 button[type="submit"] {
-    background-color: #779495;
+    background-color: #017a25;
     color: #fff; 
     font-size: 1.1rem;
     padding: 0.75rem;
@@ -65,4 +65,8 @@ i {
 
 .text-center a:hover {
     text-decoration: underline;
+}
+
+.mb-3 {
+    margin-bottom: 1.5rem; /* Aumentar espaçamento */
 }
