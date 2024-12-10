@@ -29,7 +29,7 @@ input {
 /* Botão principal */
 button[type="submit"] {
     background-color: #006c54;
-    color: #fff; /* Alterado para garantir contraste */
+    color: #fff; 
     font-size: 1.1rem;
     padding: 0.75rem;
     border: none;
