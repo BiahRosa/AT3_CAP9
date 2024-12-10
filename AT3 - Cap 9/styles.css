@@ -5,7 +5,7 @@ body {
 
 /* Formulário */
 form {
-    background-color: #f8f9fa;
+    background-color: #779495;
     border-radius: 15px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
@@ -19,17 +19,17 @@ h2 {
 /* Inputs */
 .input-group-text {
     border: none;
-    background-color: #fff;
+    background-color: #779495;
 }
 
 input {
-    border: 1px solid #ced4da;
+    border: 1px solid #779495;
 }
 
 /* Botão principal */
 button[type="submit"] {
     background-color: #006c54;
-    color: #779495;
+    color: #fff; /* Alterado para garantir contraste */
     font-size: 1.1rem;
     padding: 0.75rem;
     border: none;
@@ -51,4 +51,18 @@ button.btn-light {
 
 i {
     font-size: 1.2rem;
+}
+
+/* Centralizar "Esqueceu a senha?" */
+.text-center a {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff; /* Ajustado para melhorar contraste */
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.text-center a:hover {
+    text-decoration: underline;
 }
